@@ -1,0 +1,416 @@
+body {
+	background: #3A3A3A;
+	color: #fff;
+}
+
+body a {
+	color: #fff;
+}
+
+/*--------------------- header ----------------------*/
+/*--------- logo ----------*/
+.logo-default {
+	background: url('../img/logo(white).png') no-repeat center / cover;
+	color: #fff;
+}
+
+/*------ catalog -------*/
+
+.catalog__btn {
+	background: #fff;
+	color: #000;
+}
+
+.hamburger span {
+	background: #000;
+}
+
+.catalog__btn:hover {
+	transition: all 500ms ease;
+	box-shadow: 0 5px 30px rgba(255, 255, 255, 0.4); 
+}
+
+.catalog__dop {
+	background: #2B2B2B;
+	box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.25);
+}
+
+.catalog__list {
+	border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.catalog__li span:hover {
+	border-bottom: 1px solid #fff;
+}
+
+@media screen and (max-width: 767px) {
+	.catalog__list a:hover {
+		border-bottom: 1px solid transparent;
+	}
+
+	.catalog_active {
+		background: #fff;
+	}
+
+	a .catalog_active {
+		color: #000;
+	}
+
+	.catalog__border {
+		background: rgba(255, 255, 255, 0.5);
+	}
+}
+
+/*--------- search --------*/
+
+.search__input {
+	color: #fff;
+	background: #3A3A3A;
+}
+
+.search__button {
+	background: #fff;
+	color: #000;
+}
+
+.search__button:hover {
+	transition: all 500ms ease;
+	box-shadow: 0 5px 30px rgba(255, 255, 255, 0.4); 
+}
+
+.search__button:hover:before {
+	animation: none;
+}
+
+/*----- header-down ------*/
+
+.header-down a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.header-down_active {
+	border-bottom: 1px solid #fff !important;
+}
+
+/*------- menu ------*/
+
+.icons:hover i {
+	font-size: 32px;
+	color: #fff;
+}
+
+.icons:hover a {
+	color: #fff;
+}
+
+/*-------- popup --------*/
+
+.modal__window {
+	color: #000;
+}
+
+.modal h1 {
+	border-bottom: 1px solid #000;
+}
+
+.modal button:last-child {
+	background: #000;
+}
+
+.close {
+	background: #DC0000;
+}
+
+/*------------------------------- Content ----------------------------------*/
+/*------------------------- filter ----------------------*/
+
+.button__filter {
+	border: 1px solid #FFFFFF;
+	color: #fff;
+}
+
+.filter { 
+	background: #575757;
+	box-shadow: 0 0 15px rgba(255, 255, 255, 0.25);
+}
+
+.filter__button {
+	background: #000;
+}
+
+/*------------------- slider --------------------*/
+
+.arrow span {
+	background: #fff;
+}
+
+/*----- controls -----*/
+
+.radio {
+	border: 1px solid #fff;
+}
+
+.radio_active {
+	background: #fff;
+}
+
+/*------------------- gods --------------------*/
+
+.good {
+	background: #606060;
+	box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.25);
+}
+
+.good .name {
+	font-family: RobotoRegular;
+}
+
+.good .good__img {
+	background: #fff;
+}
+
+.good__prices .price {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.good__prices .price-red {
+	color: #fff;
+}
+
+.good__buttons .buy {
+	background: #fff;
+	color: #000;
+	font-weight: 600;
+}
+
+.good__cart {
+	background-color: #fff;
+}
+
+.good__cart .cart__icon {
+	background: url('../img/shopping-cart(black).png') no-repeat center / cover;
+}
+
+.good:hover {
+	box-shadow: none;
+	background: #EAEAEA;
+}
+.good:hover .name a {
+	color: #000;
+}
+.good:hover .good__img {
+	background: #000;
+}
+.good:hover .price {
+	color: #000;
+}
+.good:hover .price-red {
+	color: #EF2323;
+} 
+.good:hover .good__buttons .buy {
+	background: #000;
+	color: #fff;
+}
+.good:hover .good__cart {
+	background: transparent;
+	border: 1px solid #000;
+}
+
+.good__buttons .buy:hover {
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); 
+}
+
+/*----------------------- footer(nav)  -------------------------*/
+
+.extreme__page a {
+	color: #fff;
+}
+
+.footer__nav .page {
+	border: 1px solid #fff;
+}
+
+.page__active {
+	background: #fff;
+}
+
+.page__active a {
+	color: #000;
+}
+
+/*-------------------------- Product ------------------------*/
+.product .slider__images li {
+	border: 2px solid rgba(0, 0, 0, 0.5);
+	transition: all 200ms ease;
+}
+
+.product .slider__images li:hover {
+	border: 2px solid #fff;
+}
+
+.product .slider__images .slider__images__li_active {
+	border: 2px #fff solid;
+}
+
+.characteristic-product {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.characteristic-product td:last-child {
+	color: #fff;
+}
+
+.color {
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background: #575757;
+}
+
+.color_active {
+	border: 2px solid #fff;
+}
+
+.add_to_favorites i,
+.add_to_favorites a {
+	color: #fff;
+}
+
+.add_to_favorites a {
+	padding-bottom: 2px;
+	border-bottom: 1px solid #fff;
+}
+
+.tab_active {
+	border-bottom: 1px solid #000;
+}
+
+.info__border {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 767px) {
+	.add_to_favorites a {
+		border-bottom: 1px solid transparent;
+	}
+
+	.tab_active {
+		border: none;
+	}
+}
+
+/*--------------------- Offer(product) ------------------*/
+
+.product .offer {
+	 background: #fff; 
+	box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.25);
+}
+
+.product .offer,
+.product .offer a {
+	color: #000;
+}
+
+.product .add__cart {
+	background: #000;
+}
+
+.by_one_click {
+	border: none;
+}
+
+@media screen and (max-width: 767px) {
+	.product .offer {
+		background: transparent;
+		box-shadow: none;
+	}
+
+	.product .offer__price {
+		background: #fff;
+	}
+
+	.add__cart {
+		box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.25);
+	}
+
+	.by_one_click {
+		border: 1px solid #fff;
+	}
+	
+	.by_one_click a {
+		color: #fff!important;
+	}
+}
+
+/*------------------------ cart -----------------------*/
+/*------ background ------*/
+#your__products .your__product {
+	background: #EAEAEA;
+	color: #000;
+	box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.25);
+}
+
+.cart__offer h2 a {
+	color: #000;
+}
+
+/*----- buttons -----*/
+#your__products .add__cart {
+	background: #000;
+}
+#your__products .by_one_click {
+	border: 1px solid #000;
+}
+#your__products .by_one_click a {
+	color: #000;
+}
+
+.close__product {
+	background: #000;
+}
+
+.close__product span {
+	border: 0.7px solid #fff;
+}
+
+/* close product */
+#confirmation .modal__background {
+	background: #fff;
+}
+
+#confirmation .buttons .Yes {
+	background: #000;
+}
+
+@media screen and (max-width: 767px) {
+	#your__products .by_one_click a {
+		color: #000!important;
+	}
+}
+
+
+/*----------------------------- Admin Panel ------------------------------*/
+/*-------- ADinput -------*/
+#ADinput {
+	background: url('../img/background(dark).jpg');
+	background-size: 100%;
+}
+
+#ADinput .modal {
+	background: rgba(25, 25, 25, 0.5);
+}
+
+/*-------- AdminPanel -------*/
+#AdminPanel .content ul {
+	background: #606060;
+}
+
+#AdminPanel .container__bottom button {
+	display: block;
+	background: #fff;
+	color: #000;
+	border-radius: 10px;
+}
+
+#AdminPanel .container__bottom button:hover {
+	transition: all 500ms ease;
+	box-shadow: 0 3px 20px rgba(255, 255, 255, 0.4);
+}
